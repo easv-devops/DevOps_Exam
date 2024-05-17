@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "hPlKnVtXQiXeveFj6P33D7LBUOhgSHEIePe77UNQ5687RSTRy5c+B1k7Lv8vVHYW14WxTIBLaQhuxxroPIHO1g==",
+  "dgSpecHash": "m9dBySzBBQP8LIs5qDFTgV8JNTRQQXnmEn3uLNPHIxQZPW57D2UJZEpqFTGBc8Kse1LpJ03fylKKaDHyNcGM9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\DevOps\\TaskManagerDevOps\\TaskManagment\\service\\service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
