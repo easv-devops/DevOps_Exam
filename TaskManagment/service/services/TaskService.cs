@@ -34,7 +34,7 @@ namespace service.services
                 DateCreated = DateTime.UtcNow,
                 TaskName = taskName,
                 TaskDescription = taskDescription,
-                TaskStatus = false
+                TaskStatus = taskStatus
             };
 
             try

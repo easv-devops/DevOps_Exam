@@ -4,3 +4,10 @@ C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\De
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\DevOps\TaskManagerDevOps\TaskManagment\infrastructure\obj\Debug\net8.0\infrastructure.AssemblyInfo.cs
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\DevOps\TaskManagerDevOps\TaskManagment\infrastructure\obj\Debug\net8.0\infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\DevOps\TaskManagerDevOps\TaskManagment\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\DevOps\TaskManagerDevOps\TaskManagment\infrastructure\bin\Debug\net8.0\infrastructure.deps.json
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\DevOps\TaskManagerDevOps\TaskManagment\infrastructure\bin\Debug\net8.0\infrastructure.dll
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\DevOps\TaskManagerDevOps\TaskManagment\infrastructure\bin\Debug\net8.0\infrastructure.pdb
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\DevOps\TaskManagerDevOps\TaskManagment\infrastructure\obj\Debug\net8.0\infrastructure.dll
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\DevOps\TaskManagerDevOps\TaskManagment\infrastructure\obj\Debug\net8.0\refint\infrastructure.dll
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\DevOps\TaskManagerDevOps\TaskManagment\infrastructure\obj\Debug\net8.0\infrastructure.pdb
+C:\Users\Atanas Stoyanov\OneDrive - Erhvervsakademi Sydvest\Dokumenter\GitHub\DevOps\TaskManagerDevOps\TaskManagment\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll

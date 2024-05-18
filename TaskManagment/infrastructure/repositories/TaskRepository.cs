@@ -25,7 +25,7 @@ namespace infrastructure.repositories
 
             return conn.Query<TaskModel>(@$"SELECT
             id as {nameof(TaskModel.Id)},
-            data_created as {nameof(TaskModel.DateCreated)},
+            date_created as {nameof(TaskModel.DateCreated)},
             task as {nameof(TaskModel.TaskName)},
             task_description as {nameof(TaskModel.TaskDescription)},
             task_status as {nameof(TaskModel.TaskStatus)}
@@ -42,7 +42,7 @@ namespace infrastructure.repositories
             using var conn = _dataSource.OpenConnection();
 
             return conn.QueryFirst<TaskModel>($@"INSERT INTO public.tasks
-                                            (data_created, task, task_description, task_status)
+                                            (date_created, task, task_description, task_status)
                                             VALUES (@dateCreated, @taskName, @taskDescription, @taskStatus)
                                             RETURNING *", new {dateCreated = task.DateCreated, taskName = task.TaskName,
                                                             taskDescription = task.TaskDescription, taskStatus = task.TaskStatus});
@@ -55,7 +55,7 @@ namespace infrastructure.repositories
         {
             using var conn = _dataSource.OpenConnection();
 
-            conn.Execute($@"DELETE FROM public.task WHERE id=@id;", new {id});
+            conn.Execute($@"DELETE FROM public.tasks WHERE id=@id;", new {id});
         }
     }
 }

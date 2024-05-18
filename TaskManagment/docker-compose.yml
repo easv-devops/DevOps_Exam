@@ -21,3 +21,10 @@ services:
       - ./db:/flyway/conf
     depends_on:
       - app-database
+
+  api:
+    image: atanasls/task-managment-api:staging
+    depends_on:
+      - app-database
+    ports:
+      - 5001:8080
