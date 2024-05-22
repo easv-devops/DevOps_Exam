@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using api.TransferModels;
 using api.TransferModels.TaskModelDto;
 using Microsoft.AspNetCore.Mvc;
+using service;
 using service.services;
 
 namespace api.Controllers
@@ -13,7 +14,6 @@ namespace api.Controllers
     public class TasksController : Controller
     {
         private readonly TaskService _service;
-
         public TasksController(TaskService service)
         {
             _service = service;
@@ -43,7 +43,7 @@ namespace api.Controllers
         }
 
         [HttpDelete]
-        [Route ("deleteTask")]
+        [Route ("/deleteTask")]
         public ResponseDto DeleteTask([FromBody] int id)
         {
             _service.DeleteTask(id);

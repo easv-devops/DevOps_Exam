@@ -7,7 +7,7 @@ using infrastructure.repositories;
 
 namespace service.services
 {
-    public class TaskService
+    public class TaskService : ITaskService
     {
         private readonly TaskRepository _repository;
 
