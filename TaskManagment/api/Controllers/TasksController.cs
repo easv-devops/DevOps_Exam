@@ -43,8 +43,8 @@ namespace api.Controllers
         }
 
         [HttpDelete]
-        [Route ("/deleteTask")]
-        public ResponseDto DeleteTask([FromBody] int id)
+        [Route ("/deleteTask/{id}")]
+        public ResponseDto DeleteTask([FromRoute] int id)
         {
             _service.DeleteTask(id);
 
