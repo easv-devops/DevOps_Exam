@@ -75,7 +75,16 @@ steps:
           -locations=filesystem:./db
     depends_on:
       - trigger update
-  
+
+  - name: performance tests
+    image: grafana/k6
+    commands:
+      - k6 run tests/PerformanceTest/spike.js
+      - k6 run Test/PerformanceTest/stress.js
+      - k6 run Test/PerformanceTest/load.js
+      
+    depends_on:
+      - update database
   
 
 
