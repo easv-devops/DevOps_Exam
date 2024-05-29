@@ -36,7 +36,7 @@ steps:
         from_secret: DockerUsername
       password:
         from_secret: DockerPassword
-      context: .
+      context: TaskManagment/.
       dockerfile: Dockerfile
       repo: atanasls/task-managment-api
       tags: 
@@ -49,7 +49,7 @@ steps:
         from_secret: DockerUsername
       password:
         from_secret: DockerPassword
-      context: client
+      context: TaskManagment/client
       dockerfile: client/Dockerfile
       repo: atanasls/task-managment-frontend
       tags: 
