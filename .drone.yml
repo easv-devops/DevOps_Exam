@@ -48,7 +48,7 @@ steps:
         from_secret: DockerUsername
       password:
         from_secret: DockerPassword
-      dockerfile: client/Dockerfile
+      dockerfile: TaskManagment/client/Dockerfile
       repo: atanasls/task-managment-frontend
       tags: 
         - staging
