@@ -32,9 +32,6 @@ services:
       - "com.centurylinklabs.watchtower.enable=true"
 
   frontend:
-    build: 
-      context: .
-      dockerfile: client/DockerFile
     image: atanasls/task-managment-frontend:staging
     depends_on:
       - api
