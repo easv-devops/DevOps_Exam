@@ -1,7 +1,12 @@
-FROM node:alpine
-WORKDIR /usr/src/app
-COPY . /usr/src/app
-RUN npm install -g @angular/cli
+# Stage 1: Build Angular application
+FROM node:18 AS build
+WORKDIR /app
+COPY . /app
 RUN npm install
+RUN node_modules/.bin/ng build --configuration "test"
 
-CMD ["ng", "serve", "--host", "0.0.0.0"]
+# Stage 2: Setup Nginx and serve built Angular application
+FROM nginx:alpine
+COPY --from=build /app/www /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]

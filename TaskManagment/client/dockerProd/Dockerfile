@@ -1,14 +1,12 @@
-# Use an official Node runtime as a parent image
-FROM node:alpine
-
-WORKDIR /src/app
-
-COPY . /src/app
-
+# Stage 1: Build Angular application
+FROM node:18 AS build
+WORKDIR /app
+COPY . /app
 RUN npm install
+RUN node_modules/.bin/ng build --configuration "production"
 
-COPY . .
-
-RUN npm install -g @angular/cli
-
-CMD ["ng", "serve", "--host", "0.0.0.0", "-c", "production"]
+# Stage 2: Setup Nginx and serve built Angular application
+FROM nginx:alpine
+COPY --from=build /app/www /usr/share/nginx/html
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
