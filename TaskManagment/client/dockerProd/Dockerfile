@@ -1,9 +1,9 @@
 # Use an official Node runtime as a parent image
 FROM node:alpine
 
-WORKDIR /usr/src/app
+WORKDIR /src/app
 
-COPY . /usr/src/app
+COPY . /src/app
 
 RUN npm install
 
