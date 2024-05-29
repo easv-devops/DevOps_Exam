@@ -16,6 +16,6 @@ namespace api.TransferModels.TaskModelDto
         [MinLength(3), MaxLength(50)]
         public string? TaskDescription { get; set; }
         [Required, NotNull]
-        public bool TaskStatus  = false;
+        public bool TaskStatus {get; set;} = false;
     }
 }
