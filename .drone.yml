@@ -19,3 +19,63 @@ steps:
         - dotnet build --no-incremental
         - dotnet-coverage collect "dotnet test" -f xml -o "coverage.xml"
         - dotnet sonarscanner end /d:sonar.token="$SONARSECRET"
+
+---
+
+kind: pipeline
+type: docker
+name: deliver
+depends_on:
+  - integration
+
+steps:
+  - name: publish api
+    image: plugins/docker
+    settings:
+      username:
+        from_secret: DockerUsername
+      password:
+        from_secret: DockerPassword
+      context: .
+      dockerfile: Dockerfile
+      repo: atanasls/task-managment-api
+      tags: 
+        - staging
+
+  - name: publish web
+    image: plugins/docker
+    settings:
+      username:
+        from_secret: DockerUsername
+      password:
+        from_secret: DockerPassword
+      context: client
+      dockerfile: client/Dockerfile
+      repo: atanasls/task-managment-frontend
+      tags: 
+        - staging
+
+  - name: trigger update
+    image: curlimages/curl
+    commands:
+      - "curl --fail -X GET 'http://213.199.36.5:8081/v1/update' -H 'Authorization: Bearer mytoken'" 
+      # Must match the token defined in docker-compose.yml
+      - sleep 10
+    depends_on:
+      - publish api
+      - publish web
+
+  - name: update database
+    image: flyway/flyway
+    commands:
+      - flyway migrate
+          -url=jdbc:postgresql://213.199.36.5:5432/postgres
+          -user=appuser
+          -password=secret
+          -locations=filesystem:./db
+    depends_on:
+      - trigger update
+  
+  
+
+
