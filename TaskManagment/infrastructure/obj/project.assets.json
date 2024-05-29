@@ -377,11 +377,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\DevOps\\TaskManagerDevOps\\TaskManagment\\infrastructure\\infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\DevOps\\DevOps_Exam\\TaskManagment\\infrastructure\\infrastructure.csproj",
       "projectName": "infrastructure",
-      "projectPath": "c:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\DevOps\\TaskManagerDevOps\\TaskManagment\\infrastructure\\infrastructure.csproj",
+      "projectPath": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\DevOps\\DevOps_Exam\\TaskManagment\\infrastructure\\infrastructure.csproj",
       "packagesPath": "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\DevOps\\TaskManagerDevOps\\TaskManagment\\infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\DevOps\\DevOps_Exam\\TaskManagment\\infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Atanas Stoyanov\\AppData\\Roaming\\NuGet\\NuGet.Config"

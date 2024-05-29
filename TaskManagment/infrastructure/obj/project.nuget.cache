@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aO0wVUBMFzAsrc9Ig2HTepvVpTkdRc61EhzL5L/f4vtmIlxZ8sV/H7lZ3K5Ps5XRTPffI8Nmz6W1xFe9OfsWPg==",
+  "dgSpecHash": "SrYnnriG+Kw894ll3/O551GsYMs2+nJFEzW5LXNxKfYIoVXcdwfBoHwOQYwdBKVOPePFNuPDacWGCxT61X51cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\DevOps\\TaskManagerDevOps\\TaskManagment\\infrastructure\\infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\DevOps\\DevOps_Exam\\TaskManagment\\infrastructure\\infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

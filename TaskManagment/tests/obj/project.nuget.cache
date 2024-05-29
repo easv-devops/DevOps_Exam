@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AYFIU5yDXuNBeCOIATfRVGS713NgyLtry3B0pPTeVBBfnCFgxTrTNChAsFbAuBbhcvC09T/cJVTFhhOzc8SHPw==",
+  "dgSpecHash": "ksDcPIkTT+R0P3B3boM8uEKv8FvskpVKzKHesnzkzB3Oa+OgS1gerp7oI4qWJJB+r7qWBy3j3w8/A/FpOfUg6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\DevOps\\TaskManagerDevOps\\TaskManagment\\tests\\tests.csproj",
+  "projectFilePath": "C:\\Users\\Atanas Stoyanov\\OneDrive - Erhvervsakademi Sydvest\\Dokumenter\\GitHub\\DevOps\\DevOps_Exam\\TaskManagment\\tests\\tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Atanas Stoyanov\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
