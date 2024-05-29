@@ -106,7 +106,7 @@ steps:
       password:
         from_secret: DockerPassword
       context: TaskManagment/client
-      dockerfile: TaskManagment/client/dockerProd/Dockerfile
+      dockerfile: TaskManagment/client/Dockerfile.prod
       repo: atanasls/task-managment-frontend
       tags:
         - prod
