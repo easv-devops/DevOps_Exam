@@ -32,7 +32,7 @@ export class AppServiceService {
         console.error('An error occurred: ', error);
         return throwError(error);
       })
-    )
+    );
   }
 
   deleteTask(taskId: number){
