@@ -11,6 +11,4 @@ COPY . .
 
 RUN npm install -g @angular/cli
 
-ENV NODE_ENV=production
-
 CMD ["ng", "serve", "--host", "0.0.0.0", "-c", "production"]
