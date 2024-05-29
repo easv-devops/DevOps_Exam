@@ -1,0 +1,7 @@
+services:
+  api:
+    image: atanasls/task-managment-api:prod
+  
+  frontend:
+    image: atanasls/task-managment-frontend:prod
+  
