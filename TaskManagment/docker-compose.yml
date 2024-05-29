@@ -36,7 +36,7 @@ services:
     depends_on:
       - api
     ports:
-      - 4201:80
+      - 5002:80
     labels:
       - "com.centurylinklabs.watchtower.enable=true"
 
