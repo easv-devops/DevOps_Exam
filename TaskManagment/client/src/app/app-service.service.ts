@@ -13,8 +13,7 @@ export class AppServiceService {
   baseURL: string;
 
   constructor(private http: HttpClient) {
-    this.baseURL = environment.production ? environment.apiUrl : environment.testApiUrl
-
+    this.baseURL = environment.apiUrl
   }
 
   createNewTask(taskName: string, taskDescription: string){
