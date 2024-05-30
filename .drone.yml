@@ -76,6 +76,17 @@ steps:
     depends_on:
       - trigger update
 
+  - name: performance tests
+    image: grafana/k6
+    commands:
+      - k6 run TaskManagment/tests/PerformanceTest/spike.js
+      - k6 run TaskManagment/tests/PerformanceTest/stress.js
+      - k6 run TaskManagment/tests/PerformanceTest/load.js
+
+    depends_on:
+      - update database
+
+
 ---
 
 kind: pipeline
